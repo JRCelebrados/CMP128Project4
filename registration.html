@@ -41,21 +41,32 @@
 
           <form class="" action="index.html" method="post">
 
-            <label for="">Full Name:</label>
-            <br>
-            <input type="text" name="" value="">
-            <br>
-            <label for="">E-mail:</label>
-            <br>
-            <input type="text" name="" value="">
-            <br>
-            <label for="">Password</label>
-            <br>
-            <input type="text" name="" value="">
-            <br>
-            <label for="">Confirm Password</label>
-            <br>
-            <input type="text" name="" value="">
+            <div class="fields">
+              <label for="">Full Name:</label>
+              <input type="text" name="" value="">
+            </div>
+
+            <div class="fields">
+              <label for="">E-mail:</label>
+              <input type="text" name="" value="">
+            </div>
+
+            <div class="fields">
+              <label for="">Password</label>
+              <input type="text" name="" value="">
+            </div>
+
+            <div class="fields">
+              <label for="">Confirm Password</label>
+              <input type="text" name="" value="">
+            </div>
+
+            <div class="" id="formErrors">
+              <h3>Form Errors</h3>
+              <p id="passwordCharacterNumberError">Password must be between 10 and 20 characters</p>
+              <p id="paswordTextCaseError">Password must contain at least one uppercase character</p>
+              <p id="passwordCharacterDigitError">Password must contain at least one digit</p>
+            </div>
 
             <input type="button" value="submit" name="submit" id="submit">
 
