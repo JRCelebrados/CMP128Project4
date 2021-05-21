@@ -12,6 +12,10 @@ h1 {
   text-align: center;
 }
 
+h3 {
+  margin-top: 0;
+}
+
 .container {
   width: 80%;
   margin: 0 auto;
@@ -102,4 +106,19 @@ footer {
 .profile-pic {
   float: left;
   margin-right: 20px;
+}
+
+.form {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #C0C0C0;
+  padding: 1.5em;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
 }
